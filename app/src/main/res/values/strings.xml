@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JustKeepAccounts</string>
+
+    <string name="bill">Bill</string>
+    <string name="chart">Chart</string>
+    <string name="gallery">Gallery</string>
+    <string name="mine">Mine</string>
+</resources>
