@@ -20,6 +20,7 @@ import com.yoke.justkeepaccounts.feature.gallery.navigation.GalleryDestination
 import com.yoke.justkeepaccounts.feature.mine.navigation.MineDestination
 import com.yoke.justkeepaccounts.navigation.MyNavigationDestination
 import com.yoke.justkeepaccounts.navigation.TopLevelDestination
+import com.yoke.justkeepaccounts.ui.icon.Icon.DrawableResourceIcon
 import com.yoke.justkeepaccounts.ui.icon.MyIcons
 
 @Composable
@@ -53,29 +54,29 @@ class MyAppState(
         TopLevelDestination(
             route = BillDestination.route,
             destination = BillDestination.destination,
-            selectedIcon = MyIcons.Bill,
-            unselectedIcon = MyIcons.Bill,
+            selectedIcon = DrawableResourceIcon(MyIcons.Bill),
+            unselectedIcon = DrawableResourceIcon(MyIcons.Bill),
             iconTextId = R.string.bill,
         ),
         TopLevelDestination(
             route = ChartDestination.route,
             destination = ChartDestination.destination,
-            selectedIcon = MyIcons.Chart,
-            unselectedIcon = MyIcons.Chart,
+            selectedIcon = DrawableResourceIcon(MyIcons.Chart),
+            unselectedIcon = DrawableResourceIcon(MyIcons.Chart),
             iconTextId = R.string.chart,
         ),
         TopLevelDestination(
             route = GalleryDestination.route,
             destination = ChartDestination.destination,
-            selectedIcon = MyIcons.Gallery,
-            unselectedIcon = MyIcons.Gallery,
+            selectedIcon = DrawableResourceIcon(MyIcons.Gallery),
+            unselectedIcon = DrawableResourceIcon(MyIcons.Gallery),
             iconTextId = R.string.gallery,
         ),
         TopLevelDestination(
             route = MineDestination.route,
             destination = ChartDestination.destination,
-            selectedIcon = MyIcons.Mine,
-            unselectedIcon = MyIcons.Mine,
+            selectedIcon = DrawableResourceIcon(MyIcons.Mine),
+            unselectedIcon = DrawableResourceIcon(MyIcons.Mine),
             iconTextId = R.string.mine
         )
     )
